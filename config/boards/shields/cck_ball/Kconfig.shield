@@ -3,3 +3,6 @@ config SHIELD_CCK_BALL_LEFT
 
 config SHIELD_CCK_BALL_RIGHT
     def_bool $(shields_list_contains,cck_ball_right)
+
+config SHIELD_CCK_BALL_DONGLE
+    def_bool $(shields_list_contains,cck_ball_dongle)
